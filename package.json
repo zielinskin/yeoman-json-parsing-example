@@ -1,0 +1,35 @@
+{
+  "name": "generator-yeoman-test",
+  "version": "1.0.0",
+  "description": "Test Yeoman Resource Generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zielinskin/yeoman-test.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "random-files",
+    "builder",
+    "generator",
+    "scaffold"
+  ],
+  "author": "Neil R Zielinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zielinskin/yeoman-test/issues"
+  },
+  "homepage": "https://github.com/zielinskin/yeoman-test#readme",
+  "dependencies": {
+    "decamelize": "^6.0.0",
+    "save": "^2.5.0",
+    "uppercamelcase": "^3.0.0",
+    "yeoman-generator": "^5.6.1"
+  },
+  "files": [
+    "app"
+  ]
+}
