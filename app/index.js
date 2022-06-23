@@ -6,6 +6,14 @@ module.exports = class extends Generator {
     this.log('Initializing...');
   }
   start() {
-    this.log('Do something...');
+    this.fs.copyTpl(
+        this.templatePath('template.txt'),
+        this.destinationPath(
+          `results/template.txt`
+        ),
+        {
+          testVar: "hello"
+        }
+    );
   }
 };
