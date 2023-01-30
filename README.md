@@ -20,9 +20,10 @@ Set-ExecutionPolicy RemoteSigned
 ```
 
 ### Install template
-Navigate to root directory of this project and run the following commands:
+Navigate to root directory of this project and run the following commands (I am not sure why both are necessary):
 ```
 npm install
+npm install -g
 ```
 
 ## Using Template
@@ -52,5 +53,3 @@ It must begin with "generator-"; this will be excluded when running the template
 
 ### Change the template
 This is the template.txt file under the templates folder, update it to change the output.
-
-t
