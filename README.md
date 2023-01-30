@@ -42,7 +42,7 @@ There is also an example file under the test directory.
 ### Run template
 From the folder you would like to apply the template, run the following:
 ```
-yo yeoman-tes
+yo yeoman-test
 ```
 
 ## Updating template
